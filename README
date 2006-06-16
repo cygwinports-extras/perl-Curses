@@ -1,0 +1,89 @@
+perl-Curses
+-------------------------------------------
+Perl module which allows access to the ncurses libraries.
+
+Runtime requirements:
+  cygwin-1.5.20-1 (>=20060604)
+  libncurses8-5.5-2
+  perl-5.8.7-5
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.20-1 (>=20060604)
+  binutils-20050610-1
+  cygport-0.2.1-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~giraffed/Curses/
+
+Canonical download:
+  http://www.cpan.org/authors/id/G/GI/GIRAFFED/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Curses-1.14-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Curses-1.14-1.cygport all
+
+This will create:
+  /usr/src/perl-Curses-1.14-1-src.tar.bz2
+  /usr/src/perl-Curses-1.14-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Curses.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Curses.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/Curses.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/Curses.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/libCurses.dll.a
+  /usr/share/doc/Cygwin/perl-Curses-1.14.README
+  /usr/share/doc/perl-Curses-1.14/COPYING
+  /usr/share/doc/perl-Curses-1.14/HISTORY
+  /usr/share/doc/perl-Curses-1.14/INSTALL
+  /usr/share/doc/perl-Curses-1.14/README
+  /usr/share/man/man3/Curses.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Curses.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.14-1 -----
+Version bump.
+
+----- version 1.13-1 -----
+Version bump.
+Cygwin patches accepted upstream in this version.
+
+----- version 1.12-1 -----
+New upstream release, built with perl-5.8.7.
+
+----- version 1.08-2 -----
+Rebuilt against perl-5.8.6.
+
+----- version 1.08-1 -----
+New upstream release, built against the libncurses8 package.
+Now includes support for libform, libmenu, and libpanel.
+
+----- version 1.07-1 -----
+New release with a new upstream maintainer.  Fixes build issue included 
+in previous Cygwin patches.
+
+----- version 1.06-2 -----
+Rebuilt for perl-5.8.5.
+
+----- version 1.06-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
