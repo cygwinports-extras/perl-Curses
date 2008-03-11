@@ -3,18 +3,17 @@ perl-Curses
 Perl module which allows access to the ncurses libraries.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   libncurses8-5.5-3
-  perl-5.8.8-4
+  perl-5.10.0-3
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
+  perl-5.10.0-3
 
 Canonical homepage:
   http://search.cpan.org/~giraffed/Curses/
@@ -25,37 +24,35 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Curses-1.20-1-src.tar.bz2
+  unpack perl-Curses-1.23-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Curses-1.20-1.cygport all
+  cygport ./perl-Curses-1.23-1.cygport all
 
 This will create:
-  /usr/src/perl-Curses-1.20-1-src.tar.bz2
-  /usr/src/perl-Curses-1.20-1.tar.bz2
+  /usr/src/perl-Curses-1.23-1-src.tar.bz2
+  /usr/src/perl-Curses-1.23-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Curses.sh
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Curses.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/Curses.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/Curses.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Curses/libCurses.dll.a
-  /usr/share/doc/Cygwin/perl-Curses-1.20.README
-  /usr/share/doc/perl-Curses-1.20/COPYING
-  /usr/share/doc/perl-Curses-1.20/HISTORY
-  /usr/share/doc/perl-Curses-1.20/INSTALL
-  /usr/share/doc/perl-Curses-1.20/README
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Curses.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Curses/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Curses/Curses.dll
+  /usr/share/doc/perl-Curses-1.23/COPYING
+  /usr/share/doc/perl-Curses-1.23/HISTORY
+  /usr/share/doc/perl-Curses-1.23/INSTALL
+  /usr/share/doc/perl-Curses-1.23/README
   /usr/share/man/man3/Curses.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Curses.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.23-1 -----
+Version bump, built for perl-5.10.
 
 ----- version 1.20-1 -----
 Version bump.
