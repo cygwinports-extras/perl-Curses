@@ -2,8 +2,6 @@ CPAN_AUTHOR=giraffed
 CPAN_TARBALL_SUFFIX="tgz"
 inherit perl
 
-#CYGPORT_DEPEND=0.2.1
-
 src_compile() {
 	lndirs
 	cd ${B}
