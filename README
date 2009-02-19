@@ -10,9 +10,9 @@ Runtime requirements:
 Build requirements:
 (besides corresponding devel packages)
   binutils-20080624-2
-  cygport-0.4.0-1
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
-  make-3.81-1
+  make-3.81-2
   perl-5.10.0-5
 
 Canonical homepage:
@@ -24,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Curses-1.24-1-src.tar.bz2
+  unpack perl-Curses-1.27-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Curses-1.24-1.cygport all
+  cygport ./perl-Curses-1.27-1.cygport all
 
 This will create:
-  /usr/src/perl-Curses-1.24-1-src.tar.bz2
-  /usr/src/perl-Curses-1.24-1.tar.bz2
+  /usr/src/perl-Curses-1.27-1-src.tar.bz2
+  /usr/src/perl-Curses-1.27-1.tar.bz2
 
 -------------------------------------------
 
@@ -41,15 +41,18 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Curses.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Curses/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Curses/Curses.dll
-  /usr/share/doc/perl-Curses-1.24/COPYING
-  /usr/share/doc/perl-Curses-1.24/HISTORY
-  /usr/share/doc/perl-Curses-1.24/INSTALL
-  /usr/share/doc/perl-Curses-1.24/README
+  /usr/share/doc/perl-Curses-1.27/COPYING
+  /usr/share/doc/perl-Curses-1.27/HISTORY
+  /usr/share/doc/perl-Curses-1.27/INSTALL
+  /usr/share/doc/perl-Curses-1.27/README
   /usr/share/man/man3/Curses.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.27-1 -----
+Version bump.
 
 ----- version 1.24-1 -----
 Version bump.
