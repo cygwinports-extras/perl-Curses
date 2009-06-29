@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin perl libncurses8
+requires: perl libncurses8
 sdesc: "Perl bindings for ncurses libraries"
 ldesc: "Perl module for accessing the ncurses libraries."
