@@ -1,0 +1,16 @@
+CPAN_AUTHOR=giraffed
+CPAN_TARBALL_SUFFIX="tgz"
+inherit perl
+
+NAME="perl-Curses"
+VERSION=1.28
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl bindings for ncurses libraries"
+DESCRIPTION="Perl module for accessing the ncurses libraries."
+
+src_compile() {
+	lndirs
+	cd ${B}
+	perl_compile PANELS MENUS FORMS
+}

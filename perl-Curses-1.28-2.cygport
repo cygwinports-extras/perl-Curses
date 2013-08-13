@@ -1,9 +1,0 @@
-CPAN_AUTHOR=giraffed
-CPAN_TARBALL_SUFFIX="tgz"
-inherit perl
-
-src_compile() {
-	lndirs
-	cd ${B}
-	perl_compile PANELS MENUS FORMS
-}

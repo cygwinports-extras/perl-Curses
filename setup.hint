@@ -1,4 +1,0 @@
-category: Perl
-requires: perl libncursesw10
-sdesc: "Perl bindings for ncurses libraries"
-ldesc: "Perl module for accessing the ncurses libraries."
