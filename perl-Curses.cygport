@@ -3,8 +3,8 @@ CPAN_TARBALL_SUFFIX="tgz"
 inherit perl
 
 NAME="perl-Curses"
-VERSION=1.28
-RELEASE=2
+VERSION=1.32
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for ncurses libraries"
 DESCRIPTION="Perl module for accessing the ncurses libraries."
